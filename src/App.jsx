@@ -9,7 +9,7 @@ import Programs from './pages/Programs';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Course_Organization">
       <div className="app-container">
         <Navbar />
         <Routes>
